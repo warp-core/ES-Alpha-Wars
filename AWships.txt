@@ -1,0 +1,190 @@
+ship "CityShip1"
+	sprite "ship/bactrian"
+	attributes
+		category "Heavy Freighter"
+		"cost" 40000000
+		"shields" 9000
+		"hull" 9000
+		"required crew" 100
+		"bunks" 400
+		"mass" 1500
+		"drag" 20
+		"heat dissipation" .4
+		"fuel capacity" 1200
+		"cargo space" 800
+		"outfit space" 700
+		"weapon capacity" 100
+		"engine capacity" 190
+		weapon
+			"blast radius"
+			"shield damage"
+			"hull damage"
+			"hit force"
+	outfits
+		"Ramscoop"
+		
+		"Hyperdrive"
+		
+	engine -18 230
+	engine 18 230
+	gun
+	gun
+	gun
+	gun
+	turret
+	turret
+	fighter
+	fighter
+	fighter
+	fighter
+	fighter
+	fighter
+	explode "small explosion"
+	explode "medium explosion"
+	explode "large explosion"
+	explode "huge explosion"
+	"final explode"
+	description
+
+
+
+ship "CityShip2"
+	sprite "ship/bactrian"
+	attributes
+		category "Heavy Warship"
+		"cost" 60000000
+		"shields" 12000
+		"hull" 10000
+		"required crew" 130
+		"bunks" 300
+		"mass" 1600
+		"drag" 20
+		"heat dissipation" .4
+		"fuel capacity" 1200
+		"cargo space" 400
+		"outfit space" 1100
+		"weapon capacity" 500
+		"engine capacity" 250
+		weapon
+			"blast radius"
+			"shield damage"
+			"hull damage"
+			"hit force"
+	outfits
+		"Ramscoop"
+		
+		"Hyperdrive"
+		
+	engine
+	engine
+	engine
+	engine
+	gun
+	gun
+	gun
+	gun
+	gun
+	gun
+	gun
+	gun
+	gun
+	gun
+	turret
+	turret
+	turret
+	turret
+	fighter
+	fighter
+	fighter
+	fighter
+	fighter
+	fighter
+	explode "small explosion"
+	explode "medium explosion"
+	explode "large explosion"
+	explode "huge explosion"
+	"final explode"
+	description "Ever since war broke out and the threat of the Alpha's was revealed to all of humanity, Deep engineers have been working to develop new technologies to oppose them. This enormous ship is a refitted version of the <insert name of base ship> designed to carry newly-developed beam weapons on turrets as well as fire excessive amounts of missiles at enemies."
+
+
+
+ship "Firebird"
+	sprite "ship/firebird"
+	attributes
+		category "Medium Warship"
+		"cost" 8500000
+		"shields" 5000 #was 6400
+		"hull" 2350 #was 2800
+		"required crew" 8 #was 7, older technology, reduced automation, like how passenger jets used to require an engineer on board in addition to the pilot and co-pilot.
+		"bunks" 20 #was 22
+		"mass" 315 #was 290
+		"drag" 4.5
+		"heat dissipation" .55 #was .6
+		"fuel capacity" 400
+		"cargo space" 50
+		"outfit space" 400
+		"weapon capacity" 160
+		"engine capacity" 100
+		weapon
+			"blast radius" 90
+			"shield damage" 900
+			"hull damage" 450
+			"hit force" 1350
+	outfits
+		"Hyperdrive"
+		
+	engine
+	engine
+	gun
+	gun
+	gun
+	gun
+	turret
+	turret
+	explode "tiny explosion" 16
+	explode "small explosion" 32
+	explode "medium explosion" 22
+	explode "large explosion" 7
+	"final explode" "final explosion medium"
+	description
+
+ship "Aerie"
+	sprite "ship/aerie"
+	attributes
+		category "Medium Warship"
+		"cost" 10000000
+		"shields" 4800 #was 5700
+		"hull" 1600 #was 1900
+		"required crew" 12 #was 10
+		"bunks" 28
+		"mass" 150 #was 130
+		"drag" 4.1
+		"heat dissipation" .65 #was .7
+		"fuel capacity" 600 #was 500
+		"cargo space" 50
+		"outfit space" 380 #was 390
+		"weapon capacity" 130 #was 150
+		"engine capacity" 80 #was 95
+		weapon
+			"blast radius" 72
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Hyperdrive"
+		
+	engine -10 91
+	engine 10 91
+	gun -13 -79
+	gun 13 -79
+	turret -17 14
+	turret 17 14
+	turret 0 0
+	fighter -42 -2
+	fighter 42 2
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Aerie is a new design from the Deep. The engineers who worked on this ship decided they wanted to make a ship capable of carrying two fighters and a decent armament of it's own as efficiently as possible."
