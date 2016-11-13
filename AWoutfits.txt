@@ -1,0 +1,90 @@
+outfit "Ramscoop"
+	category "Systems"
+	cost 60000
+	thumbnail "outfit/ramscoop"
+	"mass" 15
+	"outfit space" -15
+	"ramscoop" .35
+	description "Ramscoops are a staple of all ships due to how sparsely populated space is at the moment, it is prohibitively difficult to travel between the small clusters of inhabited systems without one because of the many hyperspace jumps between systems."
+	description "Although you can install more than one ramscoop, additional ramscoops on a single ship are not as effective as the first."
+	description "	(As a safety measure, all ships are able to harvest tiny amounts of fuel by flying close to a star, but this outfit allows you to accumulate fuel much more quickly. The closer you are to the star, the faster fuel will accumulate.)"
+
+outfit "Ramscoop"
+	category "Systems"
+	cost 125000
+	thumbnail "outfit/ramscoop"
+	"mass" 22
+	"outfit space" -22
+	"ramscoop" 1
+	description "As the war harrows on, engineers have been working tirelessly to increase the yield of ramscoops without causing an exponential increase in size and mass. Finally, with a little help, they have succeeded."
+	description "Although you can install more than one ramscoop, additional ramscoops on a single ship are not as effective as the first."
+	description "	(As a safety measure, all ships are able to harvest tiny amounts of fuel by flying close to a star, but this outfit allows you to accumulate fuel much more quickly. The closer you are to the star, the faster fuel will accumulate.)"
+
+outfit "Cargo Scanner"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/cargo scanner"
+	"mass" 1
+	"outfit space" -1
+	"cargo scan" 225
+	description "Developed by multiple corporations at the same time to spy on each other, this device allows one to scan the cargo of another ship, provided it is within range."
+
+outfit "Outfit Scanner"
+	category "Systems"
+	cost 24000
+	thumbnail "outfit/outfit scanner"
+	"mass" 2
+	"outfit space" -2
+	"outfit scan" 400
+	description "This device is used to scan the outfits of other ships."
+	description "	The corporations that designed them were very surprised to find that their competitors ships were also equipped with them when testing them."
+
+outfit "Interference Plating"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/interference plating"
+	"mass" 4
+	"outfit space" -4
+	"scan interference" .35
+	description "Special plating designed to help prevent scanning of outfits or cargo."
+	description "	After discovering that all their competitors had also developed the ability to scan outfits and cargo, all the corporations immediately began work on a way to prevent scanning. This was the result, from all of them..."
+
+outfit "Mass Expansion"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/blue screwdriver"
+	"mass" 5
+	"outfit space" 12
+	"cargo space" -20
+	unplunderable 1
+	description "A mass expansion allows you to sacrifice some cargo space in order to make room for more outfits, in situations where you need just a bit more space to install a particular system. It does not increase your weapon or engine space unfortunately."
+	
+outfit "Cargo Expansion"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/red screwdriver"
+	"mass" 5
+	"cargo space" 12
+	"outfit space" -20
+	unplunderable 1
+	description "If being able to carry more cargo is more important to you than having advanced weapons or other systems, a cargo expansion will significantly increase the size of your cargo hold."
+
+outfit "Bunk Room"
+	category "Systems"
+	cost 40000
+	thumbnail "outfit/bunk room"
+	"mass" 5
+	"bunks" 4
+	"outfit space" -24
+	unplunderable 1
+	description "If you really want to make space for a few more passengers (or crew members, if you're trying to capture other ships), you can expand the living space of your ship into the area usually reserved for outfits."
+	
+outfit "Small Bunk Room"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/small bunk room"
+	"mass" 3
+	"bunks" 2
+	"outfit space" -15
+	unplunderable 1
+	description "Captains who do not care particularly much about the comfort of their passengers or crew can usually find a way to shove a bunk bed in behind the power generator or to hang a few hammocks from the engines as a makeshift way to make space for more people."

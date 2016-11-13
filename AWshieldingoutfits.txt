@@ -1,0 +1,68 @@
+outfit "Tiny Shield Generator"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/tiny shield"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" .1
+	"shield energy" .15
+	description "This is the standard shield generator for fighters and interceptors, as well as for many non-combat starships. Although it is possible for a ship to have no shield generator at all, recharging its shield matrix only when landed in a hospitable spaceport, life in deep space is unpredictable enough that most pilots find shield generators to be well worth the space they take up."
+
+outfit "Small Shield Generator"
+	category "Systems"
+	cost 52500
+	thumbnail "outfit/small shield"
+	"mass" 29
+	"outfit space" -29
+	"shield generation" .16
+	"shield energy" .24
+	description "This is a slightly more powerful shield generator than the standard model installed in most small ships. If combat lasts long enough, the increased recharge rate is enough to give you an edge, but recharging your shields completely will still take a long time."
+
+outfit "Medium Shield Generator"
+	category "Systems"
+	cost 97500
+	thumbnail "outfit/medium shield"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" .255
+	"shield energy" .3825
+	description "This is a more powerful shield generator designed for ships that are likely to see frequent combat, or that have such a large shield capacity that recharging them would take a long time with a smaller generator."
+
+outfit "Large Shield Generator"
+	category "Systems"
+	cost 180000
+	thumbnail "outfit/large shield"
+	"mass" 60
+	"outfit space" -60
+	"shield generation" .41
+	"shield energy" .615
+	description "This shield generator is powerful enough that in combat against some particularly weak ships, they may not even be capable of depleting your shields as fast as they recharge."
+
+outfit "Huge Shield Generator"
+	category "Systems"
+	cost 300000
+	thumbnail "outfit/huge shield"
+	"mass" 80
+	"outfit space" -80
+	"shield generation" .655
+	"shield energy" .9825
+	description "This is the most powerful shield generator available in human space. Because of their large size, D94-YV shield generators are mostly used in large warships, but you can fit one in a smaller ship if you are willing to sacrifice engine power or weaponry to make space for it."
+
+
+outfit "Small Radar Jammer"
+	category "Systems"
+	cost 120000
+	thumbnail "outfit/small radar jammer"
+	"mass" 5
+	"outfit space" -5
+	"radar jamming" 1.2
+	description "This radar jammer is designed to interfere with Sidewinders and any other missiles that rely on radar for tracking their targets. Jamming will occasionally cause missiles to lose their target locks."
+
+outfit "Large Radar Jammer"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/large radar jammer"
+	"mass" 20
+	"outfit space" -20
+	"radar jamming" 10
+	description "This high-power radar jammer will make it much more difficult for missiles that rely on radar to track you. It will not affect missiles that track you optically or that look for your ship's heat signature."
