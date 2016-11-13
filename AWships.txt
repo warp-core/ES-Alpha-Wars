@@ -133,14 +133,14 @@ ship "Firebird"
 	outfits
 		"Hyperdrive"
 		
-	engine
-	engine
-	gun
-	gun
-	gun
-	gun
-	turret
-	turret
+	engine -33 65
+	engine 33 65
+	gun -39 -13
+	gun 39 -13
+	gun -28 -27
+	gun 28 -27
+	turret -5 3
+	turret 5 3
 	explode "tiny explosion" 16
 	explode "small explosion" 32
 	explode "medium explosion" 22
